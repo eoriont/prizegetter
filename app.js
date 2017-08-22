@@ -30,5 +30,5 @@ async function parse(path, ymlpath) {
 let prizesLink = "https://www.mvcodeclub.com/students/mc_prizes";
 let permissionsFile = "/home/mc/server/plugins/CCPrizeGetter/all_prizes.yml";
 let permissionsFile2 = __dirname+"/test.txt";
-parse(prizesLink, permissionsFile2);
+parse(prizesLink, permissionsFile);
 
